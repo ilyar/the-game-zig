@@ -1,0 +1,17 @@
+.{
+    .name = .the_game,
+    .version = "0.0.0",
+    .fingerprint = 0x15746ae2d97ffc67, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .raylib = .{
+            .url = "https://github.com/raysan5/raylib/archive/refs/tags/6.2.tar.gz",
+            .hash = "raylib-6.0.0-whq8uDpYOAVcH_KyOZ0--nYF1dEsjdQ5r4e9R24UkQOi",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
