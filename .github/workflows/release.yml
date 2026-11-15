@@ -27,7 +27,7 @@ jobs:
         uses: mlugg/setup-zig@v2
 
       - name: Build WebAssembly with Zig
-        run: zig build -Dtarget=wasm32-emscripten -Doptimize=ReleaseSmall
+        run: zig build -Dtarget=wasm32-emscripten
 
       - uses: actions/upload-pages-artifact@v5
         with:
