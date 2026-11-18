@@ -6,7 +6,7 @@ Starter template for Step 1 of building The Game in [Zig](https://ziglang.org/) 
 
 1. [Zig](https://ziglang.org/download/) 0.17.0 or newer
 
-The Emscripten SDK for the Web build is downloaded automatically by `zig build`.
+The [Emscripten SDK](https://emscripten.org/) 7.0.0 for the Web build is downloaded automatically by `zig build`.
 
 ## How to Run
 

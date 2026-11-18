@@ -8,6 +8,11 @@
             .url = "https://github.com/raysan5/raylib/archive/refs/tags/6.2.tar.gz",
             .hash = "raylib-6.0.0-whq8uDpYOAVcH_KyOZ0--nYF1dEsjdQ5r4e9R24UkQOi",
         },
+        .emsdk = .{
+            .url = "https://github.com/emscripten-core/emsdk/archive/refs/tags/7.0.0.tar.gz",
+            .hash = "N-V-__8AAIZFCgB1YQkXKrOdK1wWbuPKMlyfnvd7VbGtaXFG",
+            .lazy = true,
+        },
     },
     .paths = .{
         "build.zig",
